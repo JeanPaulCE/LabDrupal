@@ -1,0 +1,20 @@
+uuid: 4ad44fbd-2b8d-44f3-81d8-0826eb7845a0
+langcode: es
+status: true
+dependencies:
+  module:
+    - comment
+    - text
+id: comment.field__nombre_de_la_carrera
+field_name: field__nombre_de_la_carrera
+entity_type: comment
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

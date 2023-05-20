@@ -1,0 +1,21 @@
+uuid: dc7d186d-8cff-41a4-b503-dfe6d855fac4
+langcode: es
+status: true
+dependencies:
+  config:
+    - comment.type.carrera
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.carrera.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: carrera
+label: 'Descripción de la carrera'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,36 @@
+uuid: f7eaddad-2a64-48b7-903e-90eeb8fd5f12
+langcode: es
+status: true
+dependencies:
+  config:
+    - comment.type.carrera
+    - field.field.comment.carrera.comment_body
+    - field.field.comment.carrera.field__nombre_de_la_carrera
+  module:
+    - text
+id: comment.carrera.default
+targetEntityType: comment
+bundle: carrera
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field__nombre_de_la_carrera:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,29 @@
+uuid: b15470cd-02c8-4e0b-bba7-eddc49e463a5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__campus_en_que_se_imparte
+    - node.type.carrera
+    - taxonomy.vocabulary.campus
+id: node.carrera.field__campus_en_que_se_imparte
+field_name: field__campus_en_que_se_imparte
+entity_type: node
+bundle: carrera
+label: 'Campus en que se imparte'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      campus: campus
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,27 @@
+uuid: dece7c20-abd7-4fcd-8464-cf19b77c4b19
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ficha_profesional
+    - node.type.carrera
+  module:
+    - file
+id: node.carrera.field_ficha_profesional
+field_name: field_ficha_profesional
+entity_type: node
+bundle: carrera
+label: 'Ficha Profesional'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+field_type: file

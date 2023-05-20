@@ -1,0 +1,21 @@
+uuid: 27e08e7d-255b-4b40-9167-edca621b7630
+langcode: es
+status: true
+dependencies:
+  config:
+    - comment.type.carrera
+    - field.storage.comment.field__nombre_de_la_carrera
+  module:
+    - text
+id: comment.carrera.field__nombre_de_la_carrera
+field_name: field__nombre_de_la_carrera
+entity_type: comment
+bundle: carrera
+label: 'Nombre de la Carrera'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

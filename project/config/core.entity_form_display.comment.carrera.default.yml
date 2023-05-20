@@ -1,0 +1,52 @@
+uuid: 8b74ac79-01bd-4677-b6f1-01c478ef2525
+langcode: es
+status: true
+dependencies:
+  config:
+    - comment.type.carrera
+    - field.field.comment.carrera.comment_body
+    - field.field.comment.carrera.field__nombre_de_la_carrera
+  module:
+    - text
+id: comment.carrera.default
+targetEntityType: comment
+bundle: carrera
+mode: default
+content:
+  author:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_body:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field__nombre_de_la_carrera:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 3
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

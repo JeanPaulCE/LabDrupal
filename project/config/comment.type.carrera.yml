@@ -1,0 +1,8 @@
+uuid: 69350995-5405-4175-b675-7d541b668b48
+langcode: es
+status: true
+dependencies: {  }
+id: carrera
+label: 'Nombre de la Carrera'
+target_entity_type_id: block_content
+description: ''

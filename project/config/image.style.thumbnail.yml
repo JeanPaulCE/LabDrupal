@@ -1,11 +1,11 @@
-uuid: 60318879-1ee5-4643-b991-d8c7afaa7e6f
-langcode: en
+uuid: eea9b69d-6742-45e9-a71b-78949ff56cfa
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
 name: thumbnail
-label: 'Thumbnail (100×100)'
+label: 'Miniatura (100×100)'
 effects:
   1cfec298-8620-4749-b100-ccb6c4500779:
     uuid: 1cfec298-8620-4749-b100-ccb6c4500779
